@@ -1,0 +1,28 @@
+@import "./normalize.css";
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-text: #666;
+	--color-high-text: #ff5777;
+	--color-tint: #ff8198;
+	--color-background: #fff;
+	--font-size: 14px;
+	--line-height: 1.5;
+	--color: red;
+}
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: #CCCCCC;
+}
+
+body {}
